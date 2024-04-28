@@ -29,20 +29,19 @@ public class ExchangeOperations {
             return new Gson().fromJson(response.body(), ConvertionData.class);
         }
 
- public double performConvertion(String curency, double amount, String localamount){
+ public void performConvertion(String curency, double amount, String localamount){
             double convertion = 0.0;
             ConvertionData rates = getRate(curency);
 
             try {
-                double rate = rates.conversion_rates().get(curency);
-
+                double rate = rates.conversion_rates().get(localamount);
                 convertion = rate * amount;
-
+                System.out.println("The amount is: " + convertion + " " +localamount);
             } catch ( Exception e){
 
                 System.out.println("An error has occured");
             }
-             return  convertion;
+
  }
 
 

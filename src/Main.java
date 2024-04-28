@@ -42,7 +42,6 @@ public class Main {
                 System.out.println("Enter Amount");
                 amount = scanner.nextDouble();
                 calculator.performConvertion("ARS",amount,"USD");
-
             }
 
             if(operation == 3){
