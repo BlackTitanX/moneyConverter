@@ -18,7 +18,7 @@ public class ExchangeOperations {
 
             try {
                 response = client.send(request, HttpResponse.BodyHandlers.ofString());
-
+                return new Gson().fromJson(response.body(), ConvertionData.class);
             } catch (IOException | InterruptedException e) {
 
                 throw new RuntimeException(e);
@@ -26,7 +26,7 @@ public class ExchangeOperations {
             }
 
 
-            return new Gson().fromJson(response.body(), ConvertionData.class);
+
         }
 
  public void performConvertion(String curency, double amount, String localamount){

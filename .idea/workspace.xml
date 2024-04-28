@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08841f97-550d-49fe-946b-8b1aa475943a" name="Changes" comment="Almost done, messing testing and edge cases.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="08841f97-550d-49fe-946b-8b1aa475943a" name="Changes" comment="Finish Project">
       <change beforePath="$PROJECT_DIR$/src/ExchangeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExchangeOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714234244457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish Project">
+      <option name="closed" value="true" />
+      <created>1714265667191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714265667191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial setup" />
     <MESSAGE value="Almost done, messing testing and edge cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost done, messing testing and edge cases." />
+    <MESSAGE value="Finish Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Project" />
   </component>
 </project>
